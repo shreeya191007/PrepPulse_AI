@@ -1,0 +1,41 @@
+
+@import "tailwindcss";
+
+:root {
+  /* Warm Earthy Palette Tokens */
+  --bg-primary: #FBF8F5;          /* Light Warm Cream / Beige */
+  --bg-card: #F3EFEA;             /* Warm Neutral Beige Surface */
+  --bg-surface: #EBE5DF;          /* Light Nude Surface */
+  --border-color: #DDD5CD;        /* Soft Nude Border */
+  
+  --text-main: #363231;           /* Deep Warm Grey / Charcoal */
+  --text-muted: #736C68;          /* Soft Taupe Grey */
+  --text-heading: #262322;        /* Dark Espresso */
+
+  --accent-green: #527358;        /* Forest Sage Green */
+  --accent-green-hover: #415D46;  /* Deep Sage Green */
+  --accent-green-light: #EBF0EC;  /* Ultra Light Sage Tint */
+  --accent-brown: #9E7B66;        /* Warm Nude Brown */
+  --accent-brown-light: #F4EDE8;  /* Light Nude Tint */
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  font-family: var(--font-sans);
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body, #root {
+  min-height: 100%;
+  width: 100%;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
